@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+html {
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+}
+body {
+    font-family: 'Righteous', cursive;
+    font-size: 110%;
+    background-color: rgba(0, 0, 128, 0.8);
+}
+header {
+    background-color: white;
+    background-image: linear-gradient(to right, navy, red);
+    padding: 30px 0;
+    border-bottom: 3px ridge gold;
+}
+header h2 {
+    font-size: 350%;
+    padding-top: 12px;
+    color: red;
+    text-shadow: 5px 5px 20px silver, -5px 5px 20px silver, 5px -5px 20px silver, -5px -5px 20px gold;
+}
+#logoimage {
+    max-width: 100px;
+    width: 100%;
+    float: left;
+    margin: 0 2em;
+}
+#nav_list {
+    width: 15%;
+    float: left;
+    margin: 3em 0 0 3em;
+    position: sticky;
+    top: 150px;
+}
+#nav_list ul {
+    list-style: none;
+}
+#nav_list ul li {
+    background-color: navy;
+    margin-bottom: 7px;
+    border: 3px ridge silver;
+    border-radius: 15px;
+    margin-left: 0;
+    margin-right: .5em;
+    transition: all .5s;
+}
+#nav_list ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 1em;
+    color: white;
+    transition: all .5s;
+}
+#nav_list ul li a:hover {
+    color: navy;
+}
+#nav_list ul li:hover {
+    background-color: white;
+    margin-left: .5em;
+    margin-right: 0;
+}
+section {
+    width: 75%;
+    float: left;
+    margin: 30px auto;
+}
+article {
+    width: 75%;
+    background-color: #660000;
+    padding: 30px 0;
+    margin: 30px auto;
+}
+article h4 {
+    font-size: 150%;
+    color: white;
+    padding: 0 0 15px 1em;
+}
+.videowrapper {
+    width: 75%;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+    border: 6px ridge #808080;
+    box-shadow: 5px 5px 15px 10px #660000;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.caption {
+    margin: 30px 6em;
+    color: white;
+}
+.caption p {
+    margin-bottom: 10px;
+}
+.caption ul {
+    margin: 30px 0 0 1em;
+}
+.caption ul li {
+    margin-left: 2em;
+    line-height: 30px;
+}
+blockquote {
+    margin: 10px 1.5em;
+    border-left: 3px solid wheat;
+    padding-left: .5em;
+    color: wheat;
+}
+.sig {
+    font-style: italic;
+    color: maroon;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 5px 30px 5px 0;
+    text-align: right;
+    border-radius: 15px;
+    background-color: rgba(245, 222, 179, 0.8);
+}
+
+#cornerbtn {
+    display: none; /* Hidden by default */
+    position: fixed;
+    left: 5px;
+    bottom: 150px;
+    z-index: 99; /* Make sure it does not overlap */
+    border: 1px solid black;
+    outline: none; /* Remove outline */
+    font-weight: bold;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: .5em .5em;
+    margin: 0 1em 3px 0;
+    font-family: 'Nova Square', cursive;
+    font-size: 100%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.25);
+    color: white;
+    transition: all .5s;
+ }
+ 
+ #cornerbtn:hover {
+    background-color: rgba(0,0,0,1);
+    color: red;
+    border: 1px solid red;
+ }
+footer {
+    clear: both;
+    background-color: white;
+    padding: 25px 0;
+    background-image: linear-gradient(to right, red, navy);
+    border-top: 3px ridge gold;
+}
+footer p {
+    text-align: center;
+    font-size: 80%;
+    color: white;
+}
+footer img {
+    max-width: 100px;
+    display: block;
+    margin: 1em auto;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 80%;
+    }
+    header {
+        text-align: center;
+        
+    }
+    #logoimage {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    #nav_list {
+        display: none;
+    }
+    section {
+        float: none;
+        width: 100%;
+    }
+    article {
+        width: 100%;
+    }
+    .videowrapper {
+        width: 100%;
+        border: none;
+    }
+    .caption {
+        margin: 30px 2em;
+    }
+  }
