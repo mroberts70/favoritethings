@@ -3,7 +3,9 @@ Multi-Page website comprised of the video gallery, the flexbox image gallery, an
 
 Live site: https://mroberts70.github.io/favoritethings/index.html
 
+
 2022-04-07 - favoritethings Version 1 - Steps taken to reach current status:
+
 
 First, we need all the files that are going to make up our website. I combined files from 3 previous projects into a single project named "favoritethings":
 - I want to model the whole site off the style of the video gallery page, so I copied the entire contents of the video gallery project folder into my favoritethings folder (including the styles folder and images folder)
@@ -15,6 +17,7 @@ First, we need all the files that are going to make up our website. I combined f
 - I copied the images from my slideshow images folder and from my imagegallery images folder into the images folder of my favoritethings folder
 
 
+
 Once all the files have been created/copied/gathered into the correct locations, we can do some clean up:
 - I opened VS Code and used File/Open Folder... to open the favoritethings folder
 - I opened the index.html page (which was just a copy of the videogallery page) and deleted everything between the section tags. This removes all the video code but leaves the return to top button Javascript
@@ -22,6 +25,7 @@ Once all the files have been created/copied/gathered into the correct locations,
 - I opened imagegallery.html and added a stylesheet link to imagegallery.css. I placed it after main.css
 - I opened slideshow.html and added a stylesheet link to slideshow.css. I placed it after main.css
   
+
 
 Finally, I added a navbar using bootstrap:
 - First, I had to go to https://getbootstrap.com/ to get the css link for the head section, and the bundled js script link which goes just above the end body tag. These two pieces of code must be pasted into their respective locations in every html page in the favoritethings folder
