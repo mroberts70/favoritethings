@@ -26,7 +26,7 @@ Once all the files have been created/copied/gathered into the correct locations,
 Finally, I added a navbar using bootstrap:
 - First, I had to go to https://getbootstrap.com/ to get the css link for the head section, and the bundled js script link which goes just above the end body tag. These two pieces of code must be pasted into their respective locations in every html page in the favoritethings folder
 - Next, you have the option of copying navbar code from either the https://getbootstrap.com/ website, or from w3schools on this page: https://www.w3schools.com/bootstrap5/bootstrap_navbar.php
-- I selected w3schools, and picked one of the options from the "colored nave bar" options, and copied and pasted the html code into the favoritethings index.html page after the closing header tag and before the opening main tag
-- I then edited the code to include links to each of the other html pages in my favoritethings folder (videogallery.html, imagegallery.html, and slideshow.html)
+- I selected w3schools, and picked one of the options from the "colored nav bar" options, and copied and pasted the html code into the favoritethings index.html page after the closing header tag and before the opening main tag
+- I then edited the nav code to link to each of the other html pages in the favoritethings folder (videogallery.html, imagegallery.html, and slideshow.html)
 - Once complete, I saved and tested the page and tested the navbar links. 
-- After I verified that the navbar links all work correctly, I copied the nav code from index.html and copied it into the same location in each of the other html files in the same location (after the closing header tag). 
+- After I verified that the navbar links all work correctly, I copied the nav code from index.html and pasted it into each of the other html files in the same location (immediately after the closing header tag). 
