@@ -1,11 +1,12 @@
 # favoritethings
-Multi-Page website comprised of the video gallery, the flexbox image gallery, and the JavaScript slideshow
+Mini-Project 4: A multi-page website comprised of the video gallery, the flexbox image gallery, and the JavaScript slideshow
+<br><br>
 
 Live site: https://mroberts70.github.io/favoritethings/index.html
-
+<br><br>
 
 2022-04-07 - favoritethings Version 1 - Steps taken to reach current status:
-
+<br><br>
 
 First, we need all the files that are going to make up our website. I combined files from 3 previous projects into a single project named "favoritethings":
 - I want to model the whole site off the style of the video gallery page, so I copied the entire contents of the video gallery project folder into my favoritethings folder (including the styles folder and images folder)
@@ -15,7 +16,7 @@ First, we need all the files that are going to make up our website. I combined f
 - I went into my slideshow folder and made a copy of the index.html file and renamed it slideshow.html. I put slideshow.html in the root of my favoritethings folder
 - I made a copy of my slideshow main.css file and renamed it slideshow.css. I put slideshow.css in the syles folder of my favoritethings folder
 - I copied the images from my slideshow images folder and from my imagegallery images folder into the images folder of my favoritethings folder
-
+<br><br>
 
 
 Once all the files have been created/copied/gathered into the correct locations, we can do some clean up:
@@ -24,7 +25,7 @@ Once all the files have been created/copied/gathered into the correct locations,
 - I copied the JavaScript from the shapeup project that is used to display the current year in the footer and pasted it just above the footer in index.html
 - I opened imagegallery.html and added a stylesheet link to imagegallery.css. I placed it after main.css
 - I opened slideshow.html and added a stylesheet link to slideshow.css. I placed it after main.css
-  
+<br><br>  
 
 
 Finally, I added a navbar using bootstrap:
