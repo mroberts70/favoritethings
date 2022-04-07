@@ -3,7 +3,7 @@ Multi-Page website comprised of the video gallery, the flexbox image gallery, an
 
 Live site: https://mroberts70.github.io/favoritethings/index.html
 
-version 1 - Steps taken to reach current status:
+2022-04-07 - favoritethings Version 1 - Steps taken to reach current status:
 
 First, we need all the files that are going to make up our website. I combined files from 3 previous projects into a single project named "favoritethings":
 - I want to model the whole site off the style of the video gallery page, so I copied the entire contents of the video gallery project folder into my favoritethings folder (including the styles folder and images folder)
