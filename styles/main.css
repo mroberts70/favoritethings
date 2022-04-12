@@ -25,7 +25,7 @@ header {
 }
 header h2 {
     font-size: 350%;
-    padding-top: 12px;
+    padding-top: 5px;
     color: red;
     text-shadow: 5px 5px 20px silver, -5px 5px 20px silver, 5px -5px 20px silver, -5px -5px 20px gold;
 }
@@ -34,6 +34,8 @@ header h2 {
     width: 100%;
     float: left;
     margin: 0 2em;
+    border: 3px ridge gold;
+    border-radius: 60px;
 }
 .navbar {
     border-bottom: 3px ridge gold;
