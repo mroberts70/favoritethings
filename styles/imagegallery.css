@@ -1,35 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-html {
-    background-image: url("../images/vhbackground.jpg");
-    background-attachment: fixed;
-}
 body {
-  font-family: Arial;
-  background-color: rgba(0, 0, 0, .8); /* rgba property value, where the 4th argument is the opacity */
+  max-width: 100%;
 }
-header {
-    background-image: url("../images/vhbackground.jpg");
-    border-bottom: 3px ridge silver;
-}
-#logoimage {
-    float: left;
-    max-width: 200px;
-    width: 100%;
-    margin: 10px 2em;
-}
-header h2 {
-    font-size: 500%;
-    font-variant: small-caps;
+main {
+  max-width: 99%;
+  margin: auto;
 }
 h1 {
   font-size: 300%;
@@ -97,5 +71,7 @@ footer p {
   }
   .column img {
     max-width: 100%;
+    border: none;
+    border-radius: 0;
   }
 }

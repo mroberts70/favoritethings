@@ -8,6 +8,12 @@
   	<meta name="keywords" content="health, exercise, diet, strength, cardio, stress, workout, eat right">
   	<meta name="author" content="Michael Roberts">
 
+    <!-- Google Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
 	<!-- shiv/shim - Helps Internet Explorer older than v. 9 work correctly with html5 -->
 	<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
@@ -47,10 +53,10 @@
 
 	<!-- header - the top part of the webpage, containing the logo image and site name -->
 	<header class="clearfix"> <!-- clearfix class used to prevent logo image from overflowing the header area -->
-		<a href="index.html"><img id="logoimage" src="images/vanhalen-logo-large.png" alt="Return to homepage" title="Return to homepage"></a>
+		<a href="index.html"><img id="logoimage" src="images/logo.gif" alt="Return to homepage" title="Return to homepage"></a>
 		<a href="index.html"><h2 alt="Return to homepage" title="Return to homepage">Van Halen</h2></a>
 	</header>
-	<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+	<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
         <div class="container-fluid">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -164,6 +170,27 @@
 	</div>
   </div>
   
+  <div><button onclick="topFunction()" id="cornerbtn" title="Go to top">Return To Top</button></div>
+
+  <script>
+	  // When the user scrolls down 800px from the top of the document, show the button
+	   window.onscroll = function() {scrollFunction()};
+   
+	   function scrollFunction() {
+		 if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+		   document.getElementById("cornerbtn").style.display = "block";
+		 } else {
+		   document.getElementById("cornerbtn").style.display = "none";
+		 }
+	   }
+   
+	   // When the user clicks on the button, scroll to the top of the document
+	   function topFunction() {
+		 document.body.scrollTop = 0;
+		 document.documentElement.scrollTop = 0;
+	   }
+   </script>
+
 
 	</main>
 	<!-- Javascript - Get Current Year for the Footer -->

@@ -35,6 +35,9 @@ header h2 {
     float: left;
     margin: 0 2em;
 }
+.navbar {
+    border-bottom: 3px ridge gold;
+}
 #nav_list {
     width: 15%;
     float: left;
@@ -69,7 +72,7 @@ header h2 {
     margin-left: .5em;
     margin-right: 0;
 }
-section {
+.vidgallery {
     width: 75%;
     float: left;
     margin: 30px auto;
@@ -84,6 +87,19 @@ article h4 {
     font-size: 150%;
     color: white;
     padding: 0 0 15px 1em;
+}
+.homepagecontainer {
+    margin: 10px auto;
+    list-style: none;
+
+}
+.homepagecontainer img {
+    float: left;
+    max-width: 500px;
+    border: 3px ridge gold;
+    border-radius: 30px;
+    margin: 50px 3em;
+    width: 100%;
 }
 .videowrapper {
     width: 75%;
