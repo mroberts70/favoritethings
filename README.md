@@ -5,6 +5,10 @@ Mini-Project 4: A multi-page website comprised of the video gallery, the flexbox
 Live site: https://mroberts70.github.io/favoritethings/index.html
 <br><br>
 
+2022-04-12 - favoritethings Version 2 - Homogenization of pages
+<br><br>
+
+
 2022-04-07 - favoritethings Version 1 - Steps taken to reach current status:
 <br><br>
 
